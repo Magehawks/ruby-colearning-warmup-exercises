@@ -10,3 +10,15 @@
 # Bonus point: in warmup-003_spec.rb create tests for the first_even_number method you created
 
 # Push your code to Github
+
+def first_even_number dummy_array
+  dummy_array.each do |i|
+    test = i.even?
+      if test == true
+        return i 
+#        break
+      end   
+     end
+  nil
+  end
+
